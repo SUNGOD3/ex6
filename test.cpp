@@ -6,7 +6,7 @@ long long n,sz[15],k,it,ansv,m;
 vector <long long> v[15],ans,ban[200005];
 set <vector<long long> > s;
 int main(){
-	std::ios::sync_with_stdio(false);cin.tie(false);
+	std::ios::sync_with_stdio(false);cin.tie(0);
 	cin >> n;
 	for(int i=0;i<n;++i){
 		cin >> sz[i];
